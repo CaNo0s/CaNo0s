@@ -1,0 +1,1940 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local skybox = Instance.new("TextButton")
+local decal = Instance.new("TextButton")
+local particles = Instance.new("TextButton")
+local CaNo0sface = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Music = Instance.new("TextButton")
+local disco = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local jumpscare = Instance.new("TextButton")
+local music2 = Instance.new("TextButton")
+local toadroast = Instance.new("TextButton")
+local hint = Instance.new("TextButton")
+local hint2 = Instance.new("TextButton")
+local msg = Instance.new("TextButton")
+local msg2 = Instance.new("TextButton")
+local stopmusic = Instance.new("TextButton")
+local _666 = Instance.new("TextButton")
+local msg3 = Instance.new("TextButton")
+local msg4 = Instance.new("TextButton")
+local unanchor = Instance.new("TextButton")
+local flash = Instance.new("TextButton")
+local tomrain = Instance.new("TextButton")
+local becomesteve = Instance.new("TextButton")
+local kickall = Instance.new("TextButton")
+local killall = Instance.new("TextButton")
+local rc7cloud = Instance.new("TextButton")
+local horrormsc = Instance.new("TextButton")
+local horrormsc2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 4
+Frame.Position = UDim2.new(0.0603019632, 0, 0.116513662, 0)
+Frame.Size = UDim2.new(0, 852, 0, 601)
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.164302707, 0, 0.00426664669, 0)
+TextLabel.Size = UDim2.new(0, 545, 0, 90)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "~~CaNo0s GUI~~"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+skybox.Name = "skybox"
+skybox.Parent = Frame
+skybox.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+skybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skybox.BorderSizePixel = 4
+skybox.Position = UDim2.new(0.0253309235, 0, 0.282741487, 0)
+skybox.Size = UDim2.new(0, 139, 0, 37)
+skybox.Font = Enum.Font.FredokaOne
+skybox.Text = "Skybox"
+skybox.TextColor3 = Color3.fromRGB(255, 255, 255)
+skybox.TextScaled = true
+skybox.TextSize = 14.000
+skybox.TextWrapped = true
+
+decal.Name = "decal"
+decal.Parent = Frame
+decal.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+decal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+decal.BorderSizePixel = 4
+decal.Position = UDim2.new(0.260480016, 0, 0.28367275, 0)
+decal.Size = UDim2.new(0, 139, 0, 37)
+decal.Font = Enum.Font.FredokaOne
+decal.Text = "Decal"
+decal.TextColor3 = Color3.fromRGB(255, 255, 255)
+decal.TextScaled = true
+decal.TextSize = 14.000
+decal.TextWrapped = true
+
+particles.Name = "particles"
+particles.Parent = Frame
+particles.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+particles.BorderColor3 = Color3.fromRGB(0, 0, 0)
+particles.BorderSizePixel = 4
+particles.Position = UDim2.new(0.499419153, 0, 0.284448177, 0)
+particles.Size = UDim2.new(0, 139, 0, 37)
+particles.Font = Enum.Font.FredokaOne
+particles.Text = "Particles"
+particles.TextColor3 = Color3.fromRGB(255, 255, 255)
+particles.TextScaled = true
+particles.TextSize = 14.000
+particles.TextWrapped = true
+
+CaNo0sface.Name = "CaNo0s face"
+CaNo0sface.Parent = Frame
+CaNo0sface.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+CaNo0sface.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CaNo0sface.BorderSizePixel = 4
+CaNo0sface.Position = UDim2.new(0.0340764932, 0, 0.500126779, 0)
+CaNo0sface.Size = UDim2.new(0, 137, 0, 44)
+CaNo0sface.Font = Enum.Font.FredokaOne
+CaNo0sface.Text = "CaNo0s Face All"
+CaNo0sface.TextColor3 = Color3.fromRGB(255, 255, 255)
+CaNo0sface.TextScaled = true
+CaNo0sface.TextSize = 14.000
+CaNo0sface.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0127286958, 0, 0.751489341, 0)
+ImageLabel.Size = UDim2.new(0, 212, 0, 127)
+ImageLabel.Image = "rbxassetid://77888956"
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.301171035, 0, 0.89950788, 0)
+TextLabel_2.Size = UDim2.new(0, 365, 0, 50)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "Made by: r2d2f3r1w1"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Music.Name = "Music"
+Music.Parent = Frame
+Music.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+Music.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Music.BorderSizePixel = 4
+Music.Position = UDim2.new(0.267063409, 0, 0.504350126, 0)
+Music.Size = UDim2.new(0, 137, 0, 37)
+Music.Font = Enum.Font.FredokaOne
+Music.Text = "Music"
+Music.TextColor3 = Color3.fromRGB(255, 255, 255)
+Music.TextScaled = true
+Music.TextSize = 14.000
+Music.TextWrapped = true
+
+disco.Name = "disco"
+disco.Parent = Frame
+disco.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+disco.BorderColor3 = Color3.fromRGB(0, 0, 0)
+disco.BorderSizePixel = 4
+disco.Position = UDim2.new(0.501234233, 0, 0.510422111, 0)
+disco.Size = UDim2.new(0, 137, 0, 37)
+disco.Font = Enum.Font.FredokaOne
+disco.Text = "Disco"
+disco.TextColor3 = Color3.fromRGB(255, 255, 255)
+disco.TextScaled = true
+disco.TextSize = 14.000
+disco.TextWrapped = true
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.747709155, 0, 0.778013229, 0)
+ImageLabel_2.Size = UDim2.new(0, 212, 0, 121)
+ImageLabel_2.Image = "rbxassetid://77888956"
+
+jumpscare.Name = "jumpscare"
+jumpscare.Parent = Frame
+jumpscare.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+jumpscare.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumpscare.BorderSizePixel = 4
+jumpscare.Position = UDim2.new(0.753836691, 0, 0.284834832, 0)
+jumpscare.Size = UDim2.new(0, 137, 0, 37)
+jumpscare.Font = Enum.Font.FredokaOne
+jumpscare.Text = "Jumpscare"
+jumpscare.TextColor3 = Color3.fromRGB(255, 255, 255)
+jumpscare.TextScaled = true
+jumpscare.TextSize = 14.000
+jumpscare.TextWrapped = true
+
+music2.Name = "music2"
+music2.Parent = Frame
+music2.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+music2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+music2.BorderSizePixel = 4
+music2.Position = UDim2.new(0.749227524, 0, 0.50012511, 0)
+music2.Size = UDim2.new(0, 137, 0, 43)
+music2.Font = Enum.Font.FredokaOne
+music2.Text = "Music 2"
+music2.TextColor3 = Color3.fromRGB(255, 255, 255)
+music2.TextScaled = true
+music2.TextSize = 14.000
+music2.TextWrapped = true
+
+toadroast.Name = "toadroast"
+toadroast.Parent = Frame
+toadroast.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+toadroast.BorderColor3 = Color3.fromRGB(0, 0, 0)
+toadroast.BorderSizePixel = 4
+toadroast.Position = UDim2.new(-0.161836147, 0, 0.00110691553, 0)
+toadroast.Size = UDim2.new(0, 137, 0, 57)
+toadroast.Font = Enum.Font.FredokaOne
+toadroast.Text = "Toadroast"
+toadroast.TextColor3 = Color3.fromRGB(255, 255, 255)
+toadroast.TextScaled = true
+toadroast.TextSize = 14.000
+toadroast.TextWrapped = true
+
+hint.Name = "hint"
+hint.Parent = Frame
+hint.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+hint.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hint.BorderSizePixel = 4
+hint.Position = UDim2.new(0.999913633, 0, 0.0260518268, 0)
+hint.Size = UDim2.new(0, 138, 0, 37)
+hint.Font = Enum.Font.FredokaOne
+hint.Text = "Hint"
+hint.TextColor3 = Color3.fromRGB(255, 255, 255)
+hint.TextScaled = true
+hint.TextSize = 14.000
+hint.TextWrapped = true
+
+hint2.Name = "hint2"
+hint2.Parent = Frame
+hint2.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+hint2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hint2.BorderSizePixel = 4
+hint2.Position = UDim2.new(0.999942422, 0, 0.17003198, 0)
+hint2.Size = UDim2.new(0, 138, 0, 37)
+hint2.Font = Enum.Font.FredokaOne
+hint2.Text = "Hint 2"
+hint2.TextColor3 = Color3.fromRGB(255, 255, 255)
+hint2.TextScaled = true
+hint2.TextSize = 14.000
+hint2.TextWrapped = true
+
+msg.Name = "msg"
+msg.Parent = Frame
+msg.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+msg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+msg.BorderSizePixel = 4
+msg.Position = UDim2.new(0.0272284485, 0, 0.171978787, 0)
+msg.Size = UDim2.new(0, 137, 0, 37)
+msg.Font = Enum.Font.FredokaOne
+msg.Text = "Msg"
+msg.TextColor3 = Color3.fromRGB(255, 255, 255)
+msg.TextScaled = true
+msg.TextSize = 14.000
+msg.TextWrapped = true
+
+msg2.Name = "msg2"
+msg2.Parent = Frame
+msg2.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+msg2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+msg2.BorderSizePixel = 4
+msg2.Position = UDim2.new(0.262441576, 0, 0.172044948, 0)
+msg2.Size = UDim2.new(0, 137, 0, 37)
+msg2.Font = Enum.Font.FredokaOne
+msg2.Text = "Msg 2"
+msg2.TextColor3 = Color3.fromRGB(255, 255, 255)
+msg2.TextScaled = true
+msg2.TextSize = 14.000
+msg2.TextWrapped = true
+
+stopmusic.Name = "stopmusic"
+stopmusic.Parent = Frame
+stopmusic.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+stopmusic.BorderColor3 = Color3.fromRGB(0, 0, 0)
+stopmusic.BorderSizePixel = 4
+stopmusic.Position = UDim2.new(0.999970615, 0, 0.320871979, 0)
+stopmusic.Size = UDim2.new(0, 138, 0, 37)
+stopmusic.Font = Enum.Font.FredokaOne
+stopmusic.Text = "Stop Music"
+stopmusic.TextColor3 = Color3.fromRGB(255, 255, 255)
+stopmusic.TextScaled = true
+stopmusic.TextSize = 14.000
+stopmusic.TextWrapped = true
+
+_666.Name = "666"
+_666.Parent = Frame
+_666.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+_666.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_666.BorderSizePixel = 4
+_666.Position = UDim2.new(0.751840532, 0, 0.382374734, 0)
+_666.Size = UDim2.new(0, 137, 0, 46)
+_666.Font = Enum.Font.FredokaOne
+_666.Text = "666"
+_666.TextColor3 = Color3.fromRGB(255, 255, 255)
+_666.TextScaled = true
+_666.TextSize = 14.000
+_666.TextWrapped = true
+
+msg3.Name = "msg3"
+msg3.Parent = Frame
+msg3.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+msg3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+msg3.BorderSizePixel = 4
+msg3.Position = UDim2.new(0.501819789, 0, 0.170899883, 0)
+msg3.Size = UDim2.new(0, 137, 0, 37)
+msg3.Font = Enum.Font.FredokaOne
+msg3.Text = "Msg 3"
+msg3.TextColor3 = Color3.fromRGB(255, 255, 255)
+msg3.TextScaled = true
+msg3.TextSize = 14.000
+msg3.TextWrapped = true
+
+msg4.Name = "msg4"
+msg4.Parent = Frame
+msg4.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+msg4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+msg4.BorderSizePixel = 4
+msg4.Position = UDim2.new(0.751811206, 0, 0.171559215, 0)
+msg4.Size = UDim2.new(0, 137, 0, 37)
+msg4.Font = Enum.Font.FredokaOne
+msg4.Text = "Msg 4"
+msg4.TextColor3 = Color3.fromRGB(255, 255, 255)
+msg4.TextScaled = true
+msg4.TextSize = 14.000
+msg4.TextWrapped = true
+
+unanchor.Name = "unanchor"
+unanchor.Parent = Frame
+unanchor.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+unanchor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+unanchor.BorderSizePixel = 4
+unanchor.Position = UDim2.new(0.0306464545, 0, 0.38350299, 0)
+unanchor.Size = UDim2.new(0, 137, 0, 46)
+unanchor.Font = Enum.Font.FredokaOne
+unanchor.Text = "Unanchor all"
+unanchor.TextColor3 = Color3.fromRGB(255, 255, 255)
+unanchor.TextScaled = true
+unanchor.TextSize = 14.000
+unanchor.TextWrapped = true
+
+flash.Name = "flash"
+flash.Parent = Frame
+flash.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+flash.BorderColor3 = Color3.fromRGB(0, 0, 0)
+flash.BorderSizePixel = 4
+flash.Position = UDim2.new(0.266423553, 0, 0.384160817, 0)
+flash.Size = UDim2.new(0, 137, 0, 46)
+flash.Font = Enum.Font.FredokaOne
+flash.Text = "Flash bang (flash warning!)"
+flash.TextColor3 = Color3.fromRGB(255, 255, 255)
+flash.TextScaled = true
+flash.TextSize = 14.000
+flash.TextWrapped = true
+
+tomrain.Name = "tomrain"
+tomrain.Parent = Frame
+tomrain.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+tomrain.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tomrain.BorderSizePixel = 4
+tomrain.Position = UDim2.new(0.501088262, 0, 0.384931773, 0)
+tomrain.Size = UDim2.new(0, 137, 0, 46)
+tomrain.Font = Enum.Font.FredokaOne
+tomrain.Text = "Raining Tom"
+tomrain.TextColor3 = Color3.fromRGB(255, 255, 255)
+tomrain.TextScaled = true
+tomrain.TextSize = 14.000
+tomrain.TextWrapped = true
+
+becomesteve.Name = "becomesteve"
+becomesteve.Parent = Frame
+becomesteve.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+becomesteve.BorderColor3 = Color3.fromRGB(0, 0, 0)
+becomesteve.BorderSizePixel = 4
+becomesteve.Position = UDim2.new(0.0366358161, 0, 0.614713132, 0)
+becomesteve.Size = UDim2.new(0, 137, 0, 46)
+becomesteve.Font = Enum.Font.FredokaOne
+becomesteve.Text = "Become steve"
+becomesteve.TextColor3 = Color3.fromRGB(255, 255, 255)
+becomesteve.TextScaled = true
+becomesteve.TextSize = 14.000
+becomesteve.TextWrapped = true
+
+kickall.Name = "kickall"
+kickall.Parent = Frame
+kickall.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+kickall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+kickall.BorderSizePixel = 4
+kickall.Position = UDim2.new(0.2671749, 0, 0.612491012, 0)
+kickall.Size = UDim2.new(0, 137, 0, 46)
+kickall.Font = Enum.Font.FredokaOne
+kickall.Text = "Kick all"
+kickall.TextColor3 = Color3.fromRGB(255, 255, 255)
+kickall.TextScaled = true
+kickall.TextSize = 14.000
+kickall.TextWrapped = true
+
+killall.Name = "killall"
+killall.Parent = Frame
+killall.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+killall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+killall.BorderSizePixel = 4
+killall.Position = UDim2.new(0.501252592, 0, 0.613949656, 0)
+killall.Size = UDim2.new(0, 137, 0, 46)
+killall.Font = Enum.Font.FredokaOne
+killall.Text = "Kill all"
+killall.TextColor3 = Color3.fromRGB(255, 255, 255)
+killall.TextScaled = true
+killall.TextSize = 14.000
+killall.TextWrapped = true
+
+rc7cloud.Name = "rc7cloud"
+rc7cloud.Parent = Frame
+rc7cloud.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+rc7cloud.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rc7cloud.BorderSizePixel = 4
+rc7cloud.Position = UDim2.new(0.752426267, 0, 0.613949656, 0)
+rc7cloud.Size = UDim2.new(0, 137, 0, 46)
+rc7cloud.Font = Enum.Font.FredokaOne
+rc7cloud.Text = "Rc7 cloud"
+rc7cloud.TextColor3 = Color3.fromRGB(255, 255, 255)
+rc7cloud.TextScaled = true
+rc7cloud.TextSize = 14.000
+rc7cloud.TextWrapped = true
+
+horrormsc.Name = "horrormsc"
+horrormsc.Parent = Frame
+horrormsc.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+horrormsc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+horrormsc.BorderSizePixel = 4
+horrormsc.Position = UDim2.new(0.268162906, 0, 0.77474618, 0)
+horrormsc.Size = UDim2.new(0, 137, 0, 43)
+horrormsc.Font = Enum.Font.FredokaOne
+horrormsc.Text = "Horror music"
+horrormsc.TextColor3 = Color3.fromRGB(255, 255, 255)
+horrormsc.TextScaled = true
+horrormsc.TextSize = 14.000
+horrormsc.TextWrapped = true
+
+horrormsc2.Name = "horrormsc2"
+horrormsc2.Parent = Frame
+horrormsc2.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+horrormsc2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+horrormsc2.BorderSizePixel = 4
+horrormsc2.Position = UDim2.new(0.501384735, 0, 0.775494635, 0)
+horrormsc2.Size = UDim2.new(0, 137, 0, 43)
+horrormsc2.Font = Enum.Font.FredokaOne
+horrormsc2.Text = "Horror music 2"
+horrormsc2.TextColor3 = Color3.fromRGB(255, 255, 255)
+horrormsc2.TextScaled = true
+horrormsc2.TextSize = 14.000
+horrormsc2.TextWrapped = true
+
+-- Scripts:
+
+local function VYWWNET_fake_script() -- skybox.Script 
+	local script = Instance.new('Script', skybox)
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=77888956" 
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=77888956"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=77888956"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=77888956"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=77888956"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=77888956"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(VYWWNET_fake_script)()
+local function DFSOLH_fake_script() -- decal.Script 
+	local script = Instance.new('Script', decal)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=77888956" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=77888956"
+					Two.Texture = "http://www.roblox.com/asset/?id=77888956"
+					Three.Texture = "http://www.roblox.com/asset/?id=77888956"
+					Four.Texture = "http://www.roblox.com/asset/?id=77888956"
+					Five.Texture = "http://www.roblox.com/asset/?id=77888956"
+					Six.Texture = "http://www.roblox.com/asset/?id=77888956"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(DFSOLH_fake_script)()
+local function ZNEI_fake_script() -- particles.Script 
+	local script = Instance.new('Script', particles)
+
+	function click()
+		-- MLG Particles Script By ItsKittyyyGD
+	
+		-- no skid this skidders
+	
+		game.Players.PlayerAdded:Connect(function(player)
+			player.CharacterAdded:Connect(function(character)
+				local torso = character:FindFirstChild("Torso") or character:FindFirstChild("UpperTorso")
+				if torso then
+					local pe = Instance.new("ParticleEmitter", torso)
+					pe.Texture = "rbxassetid://77888956"
+					pe.VelocitySpread = 50
+	
+					local se = Instance.new("ParticleEmitter", torso)
+					se.Texture = "rbxassetid://77888956"
+					se.VelocitySpread = 50
+	
+					local fe = Instance.new("ParticleEmitter", torso)
+					fe.Texture = "rbxassetid://77888956"
+					fe.VelocitySpread = 50
+				end
+			end)
+		end)
+	
+		for _, player in pairs(game.Players:GetPlayers()) do
+			if player.Character then
+				local torso = player.Character:FindFirstChild("Torso") or player.Character:FindFirstChild("UpperTorso")
+				if torso then
+					local pe = Instance.new("ParticleEmitter", torso)
+					pe.Texture = "rbxassetid://77888956"
+					pe.VelocitySpread = 50
+	
+					local se = Instance.new("ParticleEmitter", torso)
+					se.Texture = "rbxassetid://77888956"
+					se.VelocitySpread = 50
+	
+					local fe = Instance.new("ParticleEmitter", torso)
+					fe.Texture = "rbxassetid://77888956"
+					fe.VelocitySpread = 50
+				end
+			end
+		end
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(ZNEI_fake_script)()
+local function NDVXFQE_fake_script() -- CaNo0sface.Script 
+	local script = Instance.new('Script', CaNo0sface)
+
+	function click()
+			for i,v in pairs(game.Players:GetChildren()) do
+				if v.Character:FindFirstChild("Head") then
+					gui1=Instance.new("BillboardGui")
+					gui1.Parent = v.Character.Head
+					gui1.Adornee = v.Character.Head
+					gui1.Size=UDim2.new(2.5,0,2.5,0)
+					gui1.StudsOffset=Vector3.new(0,0.2,0)
+					gui1.AlwaysOnTop = true
+					text1=Instance.new("ImageLabel")
+					text1.Image = "http://www.roblox.com/asset/?id=77888956"
+					text1.Size=UDim2.new(1,0,1,0)
+					text1.Position=UDim2.new(0,0,0,0)
+					text1.BackgroundTransparency = 1
+					text1.Parent=gui1
+					v.Character.Head.Transparency = 1
+				end
+			end
+		end
+	
+		script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(NDVXFQE_fake_script)()
+local function WJHMYET_fake_script() -- Music.Script 
+	local script = Instance.new('Script', Music)
+
+	function playMusic()
+		local sound = Instance.new("Sound")
+		sound.Parent = game:GetService("Workspace")
+		sound.SoundId = "rbxassetid://1847661783"
+		sound.Name = "Music"
+		sound.Volume = 10
+		sound.Pitch = 1
+		sound.Looped = true
+		sound.Playing = true
+		local dfx = Instance.new("DistortionSoundEffect",sound)
+		dfx.Level = 0.75
+		local rfx = Instance.new("ReverbSoundEffect",sound)
+		rfx.DecayTime = 1
+		rfx.Density = 0.5
+		rfx.Diffusion = 0.6
+		rfx.DryLevel = -4
+	end
+	
+	script.Parent.MouseButton1Down:Connect(playMusic)
+end
+coroutine.wrap(WJHMYET_fake_script)()
+local function OGNSRPA_fake_script() -- disco.Script 
+	local script = Instance.new('Script', disco)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Lighting = game:GetService("Lighting")
+		local ColorCorrection = Instance.new("ColorCorrectionEffect", Lighting)
+	
+		function zigzag(X) 
+			return math.acos(math.cos(X*math.pi))/math.pi
+		end
+	
+		Counter = 0
+	
+		Lighting.TimeOfDay = "15:00"
+	
+		while wait(0.1) do 
+			ColorCorrection.TintColor = Color3.fromHSV(zigzag(Counter),1,1)
+			Lighting.Ambient = Color3.fromHSV(zigzag(Counter),1,1)
+			Counter += 0.01
+		end
+	end)
+end
+coroutine.wrap(OGNSRPA_fake_script)()
+local function MTIXKJO_fake_script() -- jumpscare.Script 
+	local script = Instance.new('Script', jumpscare)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Players:GetPlayers()) do
+			if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+				spawn(function()
+					local newgui = Instance.new("ScreenGui",v.PlayerGui)
+					newgui.Name = "Screamer"
+					local newimage = Instance.new("ImageLabel",newgui)
+					newimage.Image = "http://www.roblox.com/asset/?id=77888956"
+					newimage.Size = UDim2.new(1,1,1,1)
+					local s = Instance.new("Sound",newgui)
+					s.SoundId = "rbxassetid://6018028320"
+					s.Volume = math.huge
+					s.Looped = false
+					s:Play()
+					print("Screamed "..v.Name)
+					while wait(9) do
+	
+						newimage.Parent:Destroy()
+	
+					end
+				end)
+			end
+		end
+	end)
+end
+coroutine.wrap(MTIXKJO_fake_script)()
+local function XEIZ_fake_script() -- music2.Script 
+	local script = Instance.new('Script', music2)
+
+	function playMusic()
+		local sound = Instance.new("Sound")
+		sound.Parent = game:GetService("Workspace")
+		sound.SoundId = "rbxassetid://14145624031"
+		sound.Name = "Music"
+		sound.Volume = 10
+		sound.Pitch = 1
+		sound.Looped = true
+		sound.Playing = true
+		local dfx = Instance.new("DistortionSoundEffect",sound)
+		dfx.Level = 0.75
+		local rfx = Instance.new("ReverbSoundEffect",sound)
+		rfx.DecayTime = 1
+		rfx.Density = 0.5
+		rfx.Diffusion = 0.6
+		rfx.DryLevel = -4
+	end
+	
+	script.Parent.MouseButton1Down:Connect(playMusic)
+end
+coroutine.wrap(XEIZ_fake_script)()
+local function NQPA_fake_script() -- toadroast.Script 
+	local script = Instance.new('Script', toadroast)
+
+	function click()
+		wait(1)
+		math.randomseed(tick() % 1 * 1e6)
+		sky = coroutine.create(function()
+			while wait(0.3) do
+				s = Instance.new("Sky",game.Lighting)
+				s.SkyboxBk,s.SkyboxDn,s.SkyboxFt,s.SkyboxLf,s.SkyboxRt,s.SkyboxUp = "rbxassetid://77888956","rbxassetid://77888956","rbxassetid://77888956","rbxassetid://77888956","rbxassetid://77888956","rbxassetid://77888956"
+				s.CelestialBodiesShown = false
+			end
+		end)
+	
+	
+		del = coroutine.create(function()
+			while wait(0.3) do
+				for i,v in pairs(workspace:GetChildren()) do
+					if v:IsA("Model") then
+						v:Destroy()
+					end
+				end
+			end
+		end)
+	
+	
+	
+		for i,v in pairs(game.Players:GetChildren()) do
+		end
+	
+		noises = {'rbxassetid://230287740','rbxassetid://271787597','rbxassetid://153752123','rbxassetid://271787503'}
+	
+		sound = coroutine.create(function()
+			a = Instance.new("Sound",workspace)
+			a.SoundId = "rbxassetid://141509625"
+			a.Name = "RAINING MEN"
+			a.Volume = 58359
+			a.Looped = true
+			a:Play()
+			while wait(0.2) do
+				rainin = workspace:FindFirstChild("RAINING MEN")
+				if not rainin then
+					a = Instance.new("Sound",workspace)
+					a.SoundId = "rbxassetid://141509625"
+					a.Name = "RAINING MEN"
+					a.Volume = 58359
+					a.Looped = true
+					a:Play()
+				end
+			end
+		end)
+	
+		msg = coroutine.create(function()
+			while wait(0.4) do
+				msg = Instance.new("Message",workspace)
+				msg.Text = "Get ToadRoasted by CaNo0s bozos!"
+				wait(0.4)
+				msg:Destroy()
+			end
+		end) 
+	
+	
+		rain = coroutine.create(function()
+			while wait(10 % 1 * 1e2) do
+				part = Instance.new("Part",workspace)
+				part.Name = "Toad"
+	
+				mesh = Instance.new("SpecialMesh",part)
+	
+				sound = Instance.new("Sound",workspace)
+	
+				part.CanCollide = false
+				part.Size = Vector3.new(440,530,380)
+				part.Position = Vector3.new(math.random(-3000,1000),math.random(1,3000),math.random(-3000,3000))
+	
+				sound.SoundId = noises[math.random(1,#noises)]
+				sound:Play()
+				sound.Ended:connect(function()
+					sound:Destroy()
+				end)
+	
+	
+				mesh.MeshType = "FileMesh"
+				mesh.MeshId = "rbxassetid:/0"
+				mesh.TextureId = "rbxassetid://0"
+			end
+		end)
+		coroutine.resume(sky)
+		coroutine.resume(del)
+		coroutine.resume(sound)
+		coroutine.resume(msg)
+		coroutine.resume(rain)
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(NQPA_fake_script)()
+local function EQBMA_fake_script() -- hint.Script 
+	local script = Instance.new('Script', hint)
+
+	function click()
+		PutWhateverHere = Instance.new("Hint")
+		PutWhateverHere.Text = "CaNo0s is here!"
+		PutWhateverHere.Parent = workspace
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(EQBMA_fake_script)()
+local function TXRTO_fake_script() -- hint2.Script 
+	local script = Instance.new('Script', hint2)
+
+	function click()
+		PutWhateverHere = Instance.new("Hint")
+		PutWhateverHere.Text = "RUN CaNo0s IS HERE!1!!1!"
+		PutWhateverHere.Parent = workspace
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(TXRTO_fake_script)()
+local function MNTHZJA_fake_script() -- msg.Script 
+	local script = Instance.new('Script', msg)
+
+	function click()
+		wait(2)
+		msg = Instance.new("Message")
+		msg.Parent = game.Workspace
+		msg.Text = "OH you guys are in CaNo0s server..."
+		wait(5)
+		msg:remove()
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(MNTHZJA_fake_script)()
+local function FGUFBB_fake_script() -- msg2.Script 
+	local script = Instance.new('Script', msg2)
+
+	function click()
+		wait(2)
+		msg = Instance.new("Message")
+		msg.Parent = game.Workspace
+		msg.Text = "Welcome to CaNo0s HELL!!1!1!!1"
+		wait(5)
+		msg:remove()
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(FGUFBB_fake_script)()
+local function MENZ_fake_script() -- stopmusic.Script 
+	local script = Instance.new('Script', stopmusic)
+
+	function stopAllSounds()
+		local sounds = game.Workspace:GetDescendants()
+		for _, sound in ipairs(sounds) do
+			if sound:IsA("Sound") then
+				sound:Destroy()
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(stopAllSounds)
+end
+coroutine.wrap(MENZ_fake_script)()
+local function DDTXR_fake_script() -- _666.Script 
+	local script = Instance.new('Script', _666)
+
+	function click()
+		--[[
+		WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+	]]
+		for i,v in next,workspace:children''do
+			if(v:IsA'BasePart')then
+				me=v;
+				bbg=Instance.new('BillboardGui',me);
+				bbg.Name='stuf';
+				bbg.Adornee=me;
+				bbg.Size=UDim2.new(2.5,0,2.5,0)
+				--bbg.StudsOffset=Vector3.new(0,2,0)
+				tlb=Instance.new'TextLabel';
+				tlb.Text='666 666 666 666 666 666';
+				tlb.Font='SourceSansBold';
+				tlb.FontSize='Size48';
+				tlb.TextColor3=Color3.new(1,0,0);
+				tlb.Size=UDim2.new(1.25,0,1.25,0);
+				tlb.Position=UDim2.new(-0.125,-22,-1.1,0);
+				tlb.BackgroundTransparency=1;
+				tlb.Parent=bbg;
+			end;end;
+		function xds(dd)
+			for i,v in next,dd:children''do
+				if(v:IsA'BasePart')then
+					v.BrickColor=BrickColor.new'Really black';
+					v.TopSurface='Smooth';
+					v.BottomSurface='Smooth';
+					s=Instance.new('SelectionBox',v);
+					s.Adornee=v;
+					s.Color=BrickColor.new'Really red';
+					a=Instance.new('PointLight',v);
+					a.Color=Color3.new(1,0,0);
+					a.Range=15;
+					a.Brightness=5;
+					f=Instance.new('Fire',v);
+					f.Size=19;
+					f.Heat=22;
+				end;
+	
+				local dec = 'http://www.roblox.com/asset/?id=19399245';
+				local fac = {'Front', 'Back', 'Left', 'Right', 'Top', 'Bottom'}
+				--coroutine.wrap(function()
+				--for ,_ in pairs(fac) do
+				--local ddec = Instance.new("Decal", v)
+				--ddec.Face = 
+				--ddec.Texture = dec
+				--end end)()
+				if #(v:GetChildren())>0 then
+					xds(v) 
+				end
+			end
+		end
+		xds(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(DDTXR_fake_script)()
+local function TKQXZ_fake_script() -- msg3.Script 
+	local script = Instance.new('Script', msg3)
+
+	function click()
+		wait(2)
+		msg = Instance.new("Message")
+		msg.Parent = game.Workspace
+		msg.Text = "CaNo0s CaNo0s!"
+		wait(5)
+		msg:remove()
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(TKQXZ_fake_script)()
+local function DDMXU_fake_script() -- msg4.Script 
+	local script = Instance.new('Script', msg4)
+
+	function click()
+		wait(2)
+		msg = Instance.new("Message")
+		msg.Parent = game.Workspace
+		msg.Text = "Shout out to Ashraf for helping to make CaNo0s GUI"
+		wait(5)
+		msg:remove()
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(DDMXU_fake_script)()
+local function XBVI_fake_script() -- unanchor.Script 
+	local script = Instance.new('Script', unanchor)
+
+	function click()
+		function FUNCTION(a)
+			if (a.className == "Part") or (a.className == "Seat") or (a.className == "SpawnLocation") then
+				a.Anchored = false
+			end
+			local b = a:GetChildren()
+			for i=1,#b do
+				FUNCTION(b[i])
+			end
+		end
+	
+		FUNCTION(game.workspace)
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(XBVI_fake_script)()
+local function DUHD_fake_script() -- flash.Script 
+	local script = Instance.new('Script', flash)
+
+	function click()
+		--[[
+		WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+	]]
+		sound = Instance.new("Sound",workspace) 
+		sound.Name = "jumpscare sound"
+		sound.SoundId = "rbxassetid://17518855592"
+		sound:Play()
+		sound.Looped = false
+		sound.Volume = 10
+		repeat
+			wait(0.01)
+		until sound.IsLoaded == true
+		wait(0.3)
+		de = Instance.new("DistortionSoundEffect",sound)
+		de.Level = 1 
+		wait(0.3) 
+		local Lighting = game:GetService("Lighting")
+		local ColorCorrection = Instance.new("ColorCorrectionEffect", Lighting)
+		wait(0.7)
+		ColorCorrection.Brightness = 1
+		wait(1.7) 
+		ColorCorrection.Brightness = 0.6
+		wait(1.6) 
+		ColorCorrection.Brightness = 0.3
+		wait(1.6) 
+		ColorCorrection.Brightness = 0
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.className == "Sound" then
+				wait(5.6777)
+				v:Stop()
+				v:Remove() 
+			end 
+		end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(DUHD_fake_script)()
+local function HARS_fake_script() -- tomrain.Script 
+	local script = Instance.new('Script', tomrain)
+
+	function click()
+		--- Tom Rain ---
+		local Cloud = Instance.new("Part")
+		Cloud.Shape = Enum.PartType.Ball
+		Cloud.FormFactor = Enum.FormFactor.Symmetric
+		Cloud.Anchored = true
+		Cloud.BottomSurface = Enum.SurfaceType.Smooth
+		Cloud.BrickColor = BrickColor.new("Institutional white")
+		Cloud.CFrame = CFrame.new(0, 250, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		Cloud.CanCollide = false
+		Cloud.Color = Color3.fromRGB(255, 255, 255)
+		Cloud.Locked = true
+		Cloud.Position = Vector3.new(0, 250, 0)
+		Cloud.Size = Vector3.new(2048, 3, 2048)
+		Cloud.TopSurface = Enum.SurfaceType.Smooth
+		Cloud.Name = "Cloud"
+	
+		local Mesh = Instance.new("SpecialMesh")
+		Mesh.MeshType = Enum.MeshType.FileMesh
+		Mesh.MeshId = "http://www.roblox.com/asset/?id=1095708"
+		Mesh.Scale = Vector3.new(2048, 6, 2048)
+	
+		Cloud.Parent = game:GetService("Workspace")
+		Mesh.Parent = Cloud
+	
+		while wait() do
+			local Tom = Instance.new("Part")
+			Tom.Locked = true
+			Tom.Size = Vector3.new(21.49, 20.42, 11.49)
+			Tom.Name = "Tom"
+	
+			local Mesh = Instance.new("SpecialMesh")
+			Mesh.MeshType = Enum.MeshType.FileMesh
+			Mesh.MeshId = "rbxassetid://6803927922"
+			Mesh.TextureId = "rbxassetid://6803927949"
+	
+			Tom.Parent = game:GetService("Workspace")
+			Mesh.Parent = Tom
+	
+			local findCloud = Cloud
+	
+			Tom.Position = Vector3.new(math.random(-findCloud.Size.X/2, findCloud.Size.X/2), findCloud.Position.Y, math.random(-findCloud.Size.Z/2, findCloud.Size.Z/2))
+		end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(HARS_fake_script)()
+local function JSLUO_fake_script() -- becomesteve.Script 
+	local script = Instance.new('Script', becomesteve)
+
+	function click()
+		local targetName = game.Players.LocalPlayer.Name
+		local player = game.Players:FindFirstChild(targetName)
+		function putTexture(part, frontF, backF, topF, bottomF, leftF, rightF, className)
+			local faces = {"Front", "Back", "Top", "Bottom", "Left", "Right"}
+			for i,f in pairs(faces) do
+				local decal = Instance.new(className, part)
+				if i == 1 then decal.Texture = frontF decal.Name = f end
+				if i == 2 then decal.Texture = backF or frontF decal.Name = f  end
+				if i == 3 then decal.Texture = topF or frontF decal.Name = f  end
+				if i == 4 then decal.Texture = bottomF or frontF decal.Name = f end
+				if i == 5 then decal.Texture = leftF or frontF decal.Name = f  end
+				if i == 6 then decal.Texture = rightF or frontF decal.Name = f  end
+				decal.Face = f
+			end
+			return part
+		end
+		function makeSquare(position, size, color, transparency, parent)
+			local label = Instance.new("TextLabel", parent)
+			label.Text = ""
+			label.BorderSizePixel = 0
+			label.BackgroundTransparency = transparency
+			label.Position = position
+			label.Size = size
+			label.BackgroundColor3 = color
+		end
+		function putToolBarSlot(position, image)
+			local playerGui = player:FindFirstChild("PlayerGui")
+			if playerGui then
+				local gui = playerGui:FindFirstChild("ToolBar") or Instance.new("ScreenGui", playerGui)
+				gui.Name = "ToolBar"
+				local slot = Instance.new("ImageLabel", gui)
+				slot.Position = position
+				slot.Size = UDim2.new(0, 32, 0, 32)
+				slot.BackgroundTransparency = 1
+				slot.ImageTransparency = 0
+				slot.Image = image
+				slot.ZIndex = 2
+	
+				makeSquare(UDim2.new(0, 0, 0, 0), UDim2.new(0, 32, 0, 32), 
+					Color3.new(95/255, 89/255, 76/255), 0, slot)
+				makeSquare(UDim2.new(0, 0, 0, 0), UDim2.new(0, 2, 0, 32), 
+					Color3.new(0/255, 0/255, 0/255), 0.5, slot)
+				makeSquare(UDim2.new(0, 2, 0, 0), UDim2.new(0, 30, 0, 2), 
+					Color3.new(0/255, 0/255, 0/255), 0.5, slot)
+				makeSquare(UDim2.new(0, -2, 0, -2), UDim2.new(0, 36, 0, 2), 
+					Color3.new(106/255, 106/255, 106/255), 0, slot)
+				makeSquare(UDim2.new(0, -2, 0, -2), UDim2.new(0, 2, 0, 36), 
+					Color3.new(106/255, 106/255, 106/255), 0, slot)
+				makeSquare(UDim2.new(0, 0, 0, 32), UDim2.new(0, 34, 0, 2), 
+					Color3.new(130/255, 130/255, 130/255), 0, slot)
+				makeSquare(UDim2.new(0, 32, 0, 0), UDim2.new(0, 2, 0, 34), 
+					Color3.new(130/255, 130/255, 130/255), 0, slot)
+				makeSquare(UDim2.new(0, -4, 0, -2), UDim2.new(0, 2, 0, 38), 
+					Color3.new(130/255, 130/255, 130/255), 0, slot)
+				makeSquare(UDim2.new(0, 34, 0, -2), UDim2.new(0, 2, 0, 36), 
+					Color3.new(106/255, 106/255, 106/255), 0, slot)
+				makeSquare(UDim2.new(0, -2, 0, 34), UDim2.new(0, 38, 0, 2), 
+					Color3.new(106/255, 106/255, 106/255), 0, slot)
+				makeSquare(UDim2.new(0, -4, 0, -4), UDim2.new(0, 40, 0, 2), 
+					Color3.new(156/255, 156/255, 156/255), 0, slot)
+			end
+		end
+		function divide(x, d)
+			if x ~= 0 and d ~= 0 then
+				return x/d
+			else
+				return x
+			end
+		end -- so it doesn't divide by zero
+		function getDistance(v1, v2)
+			return math.abs((Vector3.new(math.abs(v2.X - v1.X), math.abs(v2.Y - v1.Y), math.abs(v2.Z - v1.Z))).Magnitude)
+		end
+		function round(x)
+			if x%2 ~= 0.5 then
+				return math.floor(x+0.5)
+			end
+			return x-0.5
+		end
+		function weldTo(part1, part2)
+			local weld = Instance.new("Weld", part1)
+			weld.Part0 = part1
+			weld.Part1 = part2
+		end
+		function getMagnitudeXZ(velocity)
+			return math.abs(velocity.X) + math.abs(velocity.Z)
+		end
+		function placeBlock(block, cFPos)
+			local blockPlaced = Instance.new("Part", workspace)
+			blockPlaced.Material = "Fabric"
+			blockPlaced.Anchored = true
+			blockPlaced.Size = block.size
+			blockPlaced.CFrame = cFPos
+			putTexture(blockPlaced, block.frontTex, block.backTex, 
+				block.topTex, block.bottomTex, block.leftTex, block.rightTex, "Texture")
+			return blockPlaced
+		end
+		local toolBar = {
+			Dirt = {
+				size = Vector3.new(2.6, 2.6, 2.6),
+				frontTex = "rbxassetid://179655033",
+				backTex = "rbxassetid://179655033",
+				topTex = "rbxassetid://179655033",
+				bottomTex = "rbxassetid://179655033",
+				leftTex = "rbxassetid://179655033",
+				rightTex = "rbxassetid://179655033"
+			},
+			Grass = {
+				size = Vector3.new(2.6, 2.6, 2.6),
+				frontTex = "rbxassetid://96430337",
+				backTex = "rbxassetid://96430337",
+				topTex = "rbxassetid://96430265",
+				bottomTex = "rbxassetid://179655033",
+				leftTex = "rbxassetid://96430337",
+				rightTex = "rbxassetid://96430337"
+			},
+			Stone = {
+				size = Vector3.new(2.6, 2.6, 2.6),
+				frontTex = "rbxassetid://75880927",
+				backTex = "rbxassetid://75880927",
+				topTex = "rbxassetid://75880927",
+				bottomTex = "rbxassetid://75880927",
+				leftTex = "rbxassetid://75880927",
+				rightTex = "rbxassetid://75880927"
+			},
+			Diamond_Ore = {
+				size = Vector3.new(2.6, 2.6, 2.6),
+				frontTex = "rbxassetid://57928490",
+				backTex = "rbxassetid://57928490",
+				topTex = "rbxassetid://57928490",
+				bottomTex = "rbxassetid://57928490",
+				leftTex = "rbxassetid://57928490",
+				rightTex = "rbxassetid://57928490"
+			},
+			Diamond_Block = {
+				size = Vector3.new(2.6, 2.6, 2.6),
+				frontTex = "rbxassetid://56749955",
+				backTex = "rbxassetid://56749955",
+				topTex = "rbxassetid://56749955",
+				bottomTex = "rbxassetid://56749955",
+				leftTex = "rbxassetid://56749955",
+				rightTex = "rbxassetid://56749955"
+			},
+			Wood_Planks = {
+				size = Vector3.new(2.6, 2.6, 2.6),
+				frontTex = "rbxassetid://346201871",
+				backTex = "rbxassetid://346201871",
+				topTex = "rbxassetid://346201871",
+				bottomTex = "rbxassetid://346201871",
+				leftTex = "rbxassetid://346201871",
+				rightTex = "rbxassetid://346201871"
+			},
+			Oak_Log = {
+				size = Vector3.new(2.6, 2.6, 2.6),
+				frontTex = "rbxassetid://310831812",
+				backTex = "rbxassetid://310831812",
+				topTex = "rbxassetid://152538557",
+				bottomTex = "rbxassetid://152538557",
+				leftTex = "rbxassetid://310831812",
+				rightTex = "rbxassetid://310831812"
+			}
+		}
+		if player then
+			local char = player.Character
+			if char then
+				for _,cM in pairs(char:GetChildren()) do
+					if cM.ClassName == "CharacterMesh" then cM:Destroy() end
+				end
+	
+				--[]
+				local gui = player.PlayerGui:FindFirstChild("ToolBar") or Instance.new("ScreenGui", player.PlayerGui)
+				gui.Name = "ToolBar"
+	
+				makeSquare(UDim2.new(0.5, -166, 1, -111), UDim2.new(0, 364, 0, 44), 
+					Color3.new(0/255, 0/255, 0/255), 0, gui)
+	
+				local blocks = {"Dirt", "Grass", "Stone", "Diamond_Ore", "Diamond_Block", "Wood_Planks", "Oak_Log"}
+				for i = 1, 9 do
+					if toolBar[blocks[i]] ~= nil then
+						putToolBarSlot(UDim2.new(0.5, -160 + ((i-1)*40), 1, -105), toolBar[blocks[i]].frontTex)
+					else
+						putToolBarSlot(UDim2.new(0.5, -160 + ((i-1)*40), 1, -105), "")				
+					end
+				end	
+	
+				local humRootPart = char:WaitForChild("HumanoidRootPart")
+				local head = char:WaitForChild("Head")
+				local torso = char:WaitForChild("Torso")
+				local lArm = char:WaitForChild("Left Arm")
+				local rArm = char:WaitForChild("Right Arm")
+				local lLeg = char:WaitForChild("Left Leg")
+				local rLeg = char:WaitForChild("Right Leg")
+	
+				head.Size = Vector3.new(1.3, 1.3, 1.3)
+				putTexture(head, "rbxassetid://38738031", "rbxassetid://36047330", 
+					"rbxassetid://36047341", "rbxassetid://36047347",
+					"rbxassetid://36047323", "rbxassetid://36047315", "Decal")
+				head:WaitForChild("Mesh"):Destroy()
+				head:WaitForChild("face"):Destroy()
+	
+				torso.Size = Vector3.new(1.3, 1.95, 0.65)
+				putTexture(torso, "rbxassetid://38934753", "rbxassetid://38934731", 
+					"rbxassetid://38934780", "rbxassetid://38934740",
+					"rbxassetid://38934762", "rbxassetid://38934762", "Decal")
+	
+				lArm.Size = Vector3.new(0.65, 1.95, 0.65)
+				putTexture(lArm, "rbxassetid://38934581", "rbxassetid://38934560", 
+					"rbxassetid://38934613", "rbxassetid://38934568",
+					"rbxassetid://38934601", "rbxassetid://38934591", "Decal")
+	
+				rArm.Size = Vector3.new(0.65, 1.95, 0.65)
+				putTexture(rArm, "rbxassetid://38934560", "rbxassetid://38934581", 
+					"rbxassetid://38934613", "rbxassetid://38934568",
+					"rbxassetid://38934601", "rbxassetid://38934591", "Decal")
+	
+				lLeg.Size = Vector3.new(0.65, 1.95, 0.65)
+				putTexture(lLeg, "rbxassetid://38936226", "rbxassetid://38936209", 
+					"rbxassetid://38934719", "rbxassetid://38934712",
+					"rbxassetid://38936255", "rbxassetid://38936242", "Decal")
+	
+				rLeg.Size = Vector3.new(0.65, 1.95, 0.65)
+				putTexture(rLeg, "rbxassetid://38936209", "rbxassetid://38936226", 
+					"rbxassetid://38934719", "rbxassetid://38934712",
+					"rbxassetid://38936242", "rbxassetid://38936255", "Decal")
+	
+				char.Humanoid:ClearAllChildren()
+				char.Animate:Remove()		
+	
+				-- now for the real stuff
+				-- |
+				-- |
+				-- V
+				Instance.new("BlockMesh", torso)
+				Instance.new("BlockMesh", lArm)
+				Instance.new("BlockMesh", rArm)
+				Instance.new("BlockMesh", lLeg)
+				Instance.new("BlockMesh", rLeg)
+	
+				local camera = workspace.Camera
+				local camPart = Instance.new("Part", camera)
+				camPart.Size = Vector3.new(0, 0, 0)
+				camPart.CFrame = camera.CFrame
+				camPart.Transparency = 1
+	
+			--[[local cameraHand = Instance.new("Part", camera)
+			cameraHand.Size = Vector3.new(0.65, 1.95, 0.65)
+			cameraHand.CanCollide = false
+			cameraHand.Anchored = true
+			cameraHand.Name = "CameraHand"
+			putTexture(cameraHand, "rbxassetid://38934560", "rbxassetid://38934581", 
+				"rbxassetid://38934613", "rbxassetid://38934568",
+				"rbxassetid://38934601", "rbxassetid://38934591", "Decal")
+			
+			local cameraHandWeld = Instance.new("Motor6D", camPart)
+			cameraHandWeld.Part0 = camPart
+			cameraHandWeld.Part1 = cameraHand
+			cameraHandWeld.C0 = CFrame.new(5, 0, 0)
+			]]--
+	
+				local humanoid = char:WaitForChild("Humanoid")	
+				humanoid.HipHeight = 0.3	
+	
+				local rootJoint = Instance.new("Motor6D", torso)
+				rootJoint.Name = "RootJoint"
+				rootJoint.Part0 = humRootPart
+				rootJoint.Part1 = torso
+				rootJoint.C1 = CFrame.new(0, 0.05, 0)
+	
+				local neck = Instance.new("Motor6D", torso)
+				neck.Name = "Neck"
+				neck.Part0 = head
+				neck.Part1 = torso
+	
+				local lS = Instance.new("Motor6D", torso)
+				lS.Name = "Left Shoulder"
+				lS.Part0 = lArm
+				lS.Part1 = torso
+				lS.C0 = CFrame.new(-0.325, 0.975, 0) * CFrame.Angles(0, 0, 0)
+				lS.C1 = CFrame.new(0.65, 0.975, 0)
+	
+				local rS = Instance.new("Motor6D", torso)
+				rS.Name = "Right Shoulder"
+				rS.Part0 = rArm
+				rS.Part1 = torso
+				rS.C0 = CFrame.new(-0.325, 0.975, 0) * CFrame.Angles(0, 0, 0)
+				rS.C1 = CFrame.new(-0.65, 0.975, 0) * CFrame.Angles(0, -math.rad(180), 0)
+	
+				local lH = Instance.new("Motor6D", torso)
+				lH.Name = "Left Hip"
+				lH.Part0 = lLeg
+				lH.Part1 = torso
+				lH.C0 = CFrame.new(0, 0.975, 0)
+				lH.C1 = CFrame.new(0.325, -0.975, 0) * CFrame.Angles(0, 0, 0)
+	
+				local rH = Instance.new("Motor6D", torso)
+				rH.Name = "Right Hip"
+				rH.Part0 = rLeg
+				rH.Part1 = torso
+				rH.C0 = CFrame.new(0, 0.975, 0)
+				rH.C1 = CFrame.new(-0.325, -0.975, 0) * CFrame.Angles(0, -math.rad(180), 0)
+	
+				for _,p in pairs(char:GetChildren()) do
+					if p.Name ~= "HumanoidRootPart" and p.ClassName == "Part" then
+						local hit = Instance.new("Part", char)
+						hit.Name = "DamagePart"
+						hit.BrickColor = BrickColor.new("Bright red")
+						hit.Material = "SmoothPlastic"
+						hit.Transparency = 1
+						hit.Size = Vector3.new(p.Size.X + 0.05, p.Size.Y + 0.05, p.Size.Z + 0.05)
+						hit.CanCollide = false
+						weldTo(hit, p)
+					end
+				end
+	
+				local ticks = 0
+				local times = 0
+	
+				local walkAnim = 0
+				local increaseWalkAnim = 1
+	
+				local idleAnimRotX = 0
+				local idleAnimRotZ = 0
+				local sneaking = 0
+	
+				local RS = game:GetService("RunService").RenderStepped
+				local Mouse = player:GetMouse()		
+	
+				local oldHP = humanoid.Health
+				local damageTime = 0
+	
+				local punchRotX = 0
+				local punchRotY = 0
+				local punchRotZ = 0			
+				local punchSpeed = 0
+				local punching = 0
+				local selectedBlock = 8
+				local punchEnded = 1
+				local itemOnHand = nil
+	
+				local handItem = Instance.new("Part", char)
+				handItem.Name = "HandItem"
+				handItem.Size = Vector3.new(0.52, 0.52, 0.52)
+				handItem.Transparency = 1	
+				handItem.CanCollide = false
+	
+				local handItemWeld = Instance.new("Weld", char)
+				handItemWeld.Part0 = handItem
+				handItemWeld.Part1 = lArm
+				handItemWeld.C1 = CFrame.new(0, -0.9, -0.6) * CFrame.Angles(math.rad(-10), math.rad(45), 0)	
+	
+				local sound = Instance.new("Sound", char)
+				sound.Name = "Hurt"
+				sound.Volume = 10
+				sound.SoundId = "rbxassetid://535690488"		
+	
+				local facesToResize = {"Front", "Back", "Left", "Right", "Bottom", "Top"}
+				Mouse.Button1Down:connect(function()
+					if punchEnded == 1 then punching = 1 end
+					if Mouse.Target then
+						if getDistance(head.CFrame.p, Mouse.Hit.p) <= 10.4 then
+							local humanoid = Mouse.Target.Parent:FindFirstChild("Humanoid")
+							if humanoid then
+								humanoid.Health = humanoid.Health - 10
+								local parts = Mouse.Target.Parent:GetChildren()
+								for _,p in pairs(parts) do
+									if p.ClassName == "Part" then
+										p.Velocity = Vector3.new(p.Velocity.X + (head.CFrame.lookVector.X * 18), p.Velocity.Y + (head.CFrame.lookVector.Y * 18) + 8, p.Velocity.Z + (head.CFrame.lookVector.Z * 18))
+									end
+								end
+								return
+							end
+							local x = Mouse.Target.CFrame.p.X
+							local y = Mouse.Target.CFrame.p.Y
+							local z = Mouse.Target.CFrame.p.Z
+							if Mouse.TargetSurface.Name == "Right" then x = x + 2.6 end
+							if Mouse.TargetSurface.Name == "Left" then x = x - 2.6 end
+							if Mouse.TargetSurface.Name == "Top" then y = y + 2.6 end
+							if Mouse.TargetSurface.Name == "Bottom" then y = y - 2.6 end
+							if Mouse.TargetSurface.Name == "Back" then z = z + 2.6 end
+							if Mouse.TargetSurface.Name == "Front" then z = z - 2.6 end
+							if Mouse.Target.Size.X > 2.6 or Mouse.Target.Size.Y > 2.6 or Mouse.Target.Size.Z > 2.6 then
+								x = Mouse.Hit.p.X
+								y = Mouse.Hit.p.Y
+								z = Mouse.Hit.p.Z
+							end
+							--				local x = round(math.abs(mouseX)/2.6)*2.6
+							--				local y = round(math.abs(mouseY)/2.6)*2.6
+							--				local z = round(math.abs(mouseZ)/2.6)*2.6
+							--				if Mouse.Hit.p.X < 0 then x = x * -1 end
+							--				if Mouse.Hit.p.Y < 0 then y = y * -1 end
+							--				if Mouse.Hit.p.Z < 0 then z = z * -1 end
+							if selectedBlock == 0 then
+								local blk = placeBlock(toolBar.Dirt, CFrame.new(x, y, z))
+								for _,f in pairs(facesToResize) do
+									blk:WaitForChild(f).StudsPerTileU = 2.6
+									blk:WaitForChild(f).StudsPerTileV = 2.6
+								end
+							elseif selectedBlock == 1 then
+								local blk = placeBlock(toolBar.Grass, CFrame.new(x, y, z))
+								for _,f in pairs(facesToResize) do
+									blk:WaitForChild(f).StudsPerTileU = 2.6
+									blk:WaitForChild(f).StudsPerTileV = 2.6
+								end
+							elseif selectedBlock == 2 then
+								local blk = placeBlock(toolBar.Stone, CFrame.new(x, y, z))
+								for _,f in pairs(facesToResize) do
+									blk:WaitForChild(f).StudsPerTileU = 2.6
+									blk:WaitForChild(f).StudsPerTileV = 2.6
+								end
+							elseif selectedBlock == 3 then
+								local blk = placeBlock(toolBar.Diamond_Ore, CFrame.new(x, y, z))
+								for _,f in pairs(facesToResize) do
+									blk:WaitForChild(f).StudsPerTileU = 2.6
+									blk:WaitForChild(f).StudsPerTileV = 2.6
+								end
+							elseif selectedBlock == 4 then
+								local blk = placeBlock(toolBar.Diamond_Block, CFrame.new(x, y, z))
+								for _,f in pairs(facesToResize) do
+									blk:WaitForChild(f).StudsPerTileU = 2.6
+									blk:WaitForChild(f).StudsPerTileV = 2.6
+								end
+							elseif selectedBlock == 5 then
+								local blk = placeBlock(toolBar.Wood_Planks, CFrame.new(x, y, z))
+								for _,f in pairs(facesToResize) do
+									blk:WaitForChild(f).StudsPerTileU = 2.6
+									blk:WaitForChild(f).StudsPerTileV = 2.6
+								end
+							elseif selectedBlock == 6 then
+								local blk = placeBlock(toolBar.Oak_Log, CFrame.new(x, y, z))
+								for _,f in pairs(facesToResize) do
+									blk:WaitForChild(f).StudsPerTileU = 2.6
+									blk:WaitForChild(f).StudsPerTileV = 2.6
+								end
+							elseif selectedBlock == 7 or selectedBlock == 8 then
+								if Mouse.Target.Size.X <= 10 and Mouse.Target.Size.Y <= 10 and Mouse.Target.Size.Z <= 10 then
+									Mouse.Target.Parent = nil
+								end
+							end
+						end
+					end
+				end)		
+	
+				local hasItemOnHand = 0
+				local hi = 0
+				-- selection thingy
+				local selectLabel = Instance.new("TextLabel", gui)
+				selectLabel.Size = UDim2.new(0, 32, 0, 32)
+				selectLabel.Position = UDim2.new(0.5, -160 + (selectedBlock*40), 1, -105)
+				selectLabel.BackgroundTransparency = 0.5
+				selectLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+				selectLabel.BorderSizePixel = 0
+				selectLabel.Text = ""
+				selectLabel.ZIndex = 3
+				--	
+				Mouse.KeyDown:connect(function(key)
+					if key == "q" then
+						sneaking = 1
+						humanoid.WalkSpeed = humanoid.WalkSpeed / 2
+						rootJoint.C1 = CFrame.new(0, 0.325, 0) * CFrame.Angles(math.rad(sneaking*45), 0, 0)
+						lH.C0 = CFrame.new(0, 0.975, 0) * CFrame.Angles(-math.rad(sneaking*45), 0, 0)
+						rH.C0 = CFrame.new(0, 0.975, 0) * CFrame.Angles(math.rad(sneaking*45), 0, 0)
+						print("Sneaking...")
+					end
+					if key == "8" then 
+						selectedBlock = 7
+						itemOnHand = nil
+						for _,d in pairs(handItem:GetChildren()) do
+							d:Destroy()
+						end
+						if hasItemOnHand == 1 then hi = 1 end
+					end
+					if key == "9" then 
+						selectedBlock = 8
+						itemOnHand = nil
+						for _,d in pairs(handItem:GetChildren()) do
+							d:Destroy()
+						end
+						if hasItemOnHand == 1 then hi = 1 end
+					end
+					if key == "1" then 
+						selectedBlock = 0
+						itemOnHand = toolBar.Dirt
+						for _,d in pairs(handItem:GetChildren()) do
+							d:Destroy()
+						end
+						putTexture(handItem, itemOnHand.frontTex, itemOnHand.backTex,
+							itemOnHand.topTex, itemOnHand.bottomTex,
+							itemOnHand.leftTex, itemOnHand.rightTex, "Texture")
+						for _,f in pairs(facesToResize) do
+							handItem:WaitForChild(f).StudsPerTileU = 0.52
+							handItem:WaitForChild(f).StudsPerTileV = 0.52
+						end
+					end
+					if key == "2" then 
+						selectedBlock = 1 
+						itemOnHand = toolBar.Grass
+						for _,d in pairs(handItem:GetChildren()) do
+							d:Destroy()
+						end
+						putTexture(handItem, itemOnHand.frontTex, itemOnHand.backTex,
+							itemOnHand.topTex, itemOnHand.bottomTex,
+							itemOnHand.leftTex, itemOnHand.rightTex, "Texture")
+						for _,f in pairs(facesToResize) do
+							handItem:WaitForChild(f).StudsPerTileU = 0.52
+							handItem:WaitForChild(f).StudsPerTileV = 0.52
+						end
+					end
+					if key == "3" then 
+						selectedBlock = 2 
+						itemOnHand = toolBar.Stone
+						for _,d in pairs(handItem:GetChildren()) do
+							d:Destroy()
+						end
+						putTexture(handItem, itemOnHand.frontTex, itemOnHand.backTex,
+							itemOnHand.topTex, itemOnHand.bottomTex,
+							itemOnHand.leftTex, itemOnHand.rightTex, "Texture")
+						for _,f in pairs(facesToResize) do
+							handItem:WaitForChild(f).StudsPerTileU = 0.52
+							handItem:WaitForChild(f).StudsPerTileV = 0.52
+						end
+					end
+					if key == "4" then 
+						selectedBlock = 3 
+						itemOnHand = toolBar.Diamond_Ore
+						for _,d in pairs(handItem:GetChildren()) do
+							d:Destroy()
+						end
+						putTexture(handItem, itemOnHand.frontTex, itemOnHand.backTex,
+							itemOnHand.topTex, itemOnHand.bottomTex,
+							itemOnHand.leftTex, itemOnHand.rightTex, "Texture")
+						for _,f in pairs(facesToResize) do
+							handItem:WaitForChild(f).StudsPerTileU = 0.52
+							handItem:WaitForChild(f).StudsPerTileV = 0.52
+						end
+					end
+					if key == "5" then 
+						selectedBlock = 4 
+						itemOnHand = toolBar.Diamond_Block
+						for _,d in pairs(handItem:GetChildren()) do
+							d:Destroy()
+						end
+						putTexture(handItem, itemOnHand.frontTex, itemOnHand.backTex,
+							itemOnHand.topTex, itemOnHand.bottomTex,
+							itemOnHand.leftTex, itemOnHand.rightTex, "Texture")
+						for _,f in pairs(facesToResize) do
+							handItem:WaitForChild(f).StudsPerTileU = 0.52
+							handItem:WaitForChild(f).StudsPerTileV = 0.52
+						end
+					end
+					if key == "6" then 
+						selectedBlock = 5 
+						itemOnHand = toolBar.Wood_Planks
+						for _,d in pairs(handItem:GetChildren()) do
+							d:Destroy()
+						end
+						putTexture(handItem, itemOnHand.frontTex, itemOnHand.backTex,
+							itemOnHand.topTex, itemOnHand.bottomTex,
+							itemOnHand.leftTex, itemOnHand.rightTex, "Texture")
+						for _,f in pairs(facesToResize) do
+							handItem:WaitForChild(f).StudsPerTileU = 0.52
+							handItem:WaitForChild(f).StudsPerTileV = 0.52
+						end
+					end
+					if key == "7" then 
+						selectedBlock = 6 
+						itemOnHand = toolBar.Oak_Log
+						for _,d in pairs(handItem:GetChildren()) do
+							d:Destroy()
+						end
+						putTexture(handItem, itemOnHand.frontTex, itemOnHand.backTex,
+							itemOnHand.topTex, itemOnHand.bottomTex,
+							itemOnHand.leftTex, itemOnHand.rightTex, "Texture")
+						for _,f in pairs(facesToResize) do
+							handItem:WaitForChild(f).StudsPerTileU = 0.52
+							handItem:WaitForChild(f).StudsPerTileV = 0.52
+						end
+					end
+					if (key == "0" or key == "1" or key == "2" 
+						or key == "3" or key == "4" or key == "5"
+						or key == "6" or key == "7") and hasItemOnHand == 0 then hi = 1 end
+					selectLabel.Position = UDim2.new(0.5, -160 + ((selectedBlock)*40), 1, -105)
+				end)
+	
+				Mouse.KeyUp:connect(function(key)
+					if key == "q" then
+						sneaking = 0
+						humanoid.WalkSpeed = humanoid.WalkSpeed * 2
+						rootJoint.C1 = CFrame.new(0, 0.05, 0) * CFrame.Angles(0, 0, 0)
+						lH.C0 = CFrame.new(0, 0.975, 0) * CFrame.Angles(0, 0, 0)
+						rH.C0 = CFrame.new(0, 0.975, 0) * CFrame.Angles(0, 0, 0)
+						print("Stopped sneaking...")
+					end
+				end)
+	
+				while RS:wait() do
+					if itemOnHand ~= nil then 
+						hasItemOnHand = 1 
+						handItem.Transparency = 0
+					else 
+						hasItemOnHand = 0 
+						handItem.Transparency = 1
+					end
+					if humanoid.Health < oldHP then
+						damageTime = 60
+						sound:Play()
+					end
+					oldHP = humanoid.Health
+					if damageTime > 0 and humanoid.Health > 0 then
+						for _,p in pairs(char:GetChildren()) do
+							if p.Name ~= "HumanoidRootPart" and p.ClassName == "Part" then
+								if p.Name == "DamagePart" then
+									p.Transparency = 0.5
+								end
+							end
+						end
+						damageTime = damageTime - 2
+						if damageTime <= 0 then
+							for _,p in pairs(char:GetChildren()) do
+								if p.Name ~= "HumanoidRootPart" and p.ClassName == "Part" then
+									if p.Name == "DamagePart" then
+										p.Transparency = 1
+									end
+								end
+							end
+						end
+					end
+					camPart.CFrame = camera.CFrame
+					neck.C1 = CFrame.new(0, 0.975, 0) * CFrame.fromEulerAnglesXYZ(math.rad(sneaking*45), math.rad(camPart.Orientation.Y - torso.Orientation.Y), 0)
+					neck.C0 = CFrame.new(0, -0.65, 0) * CFrame.Angles(-math.rad(camPart.Orientation.X - torso.Orientation.X - (sneaking*45)), 0, 0)		
+	
+					if getMagnitudeXZ(torso.Velocity) > 1 then
+						if walkAnim >= 1 then
+							increaseWalkAnim = -1
+						elseif walkAnim <= -1 then
+							increaseWalkAnim = 1
+						end
+						walkAnim = walkAnim + (increaseWalkAnim/(10+(sneaking*20)))
+					else
+						walkAnim = 0
+					end
+	
+					--lH.C0 = CFrame.new(0, 0.975, 0) * CFrame.Angles(-math.rad(sneaking*45), 0, 0)
+					--rH.C0 = CFrame.new(0, 0.975, 0) * CFrame.Angles(math.rad(sneaking*45), 0, 0)
+					lH.C0 = lH.C0:lerp(CFrame.new(0, 0.975, 0) * CFrame.Angles(-math.rad(sneaking*45) + math.rad(damageTime*1.5) + math.rad(walkAnim*getMagnitudeXZ(torso.Velocity)*5/(1+sneaking)), 0, 0), 0.1)
+					rH.C0 = rH.C0:lerp(CFrame.new(0, 0.975, 0) * CFrame.Angles(math.rad(sneaking*45) + math.rad(damageTime*1.5) + math.rad(walkAnim*getMagnitudeXZ(torso.Velocity)*5/(1+sneaking)), 0, 0), 0.1)
+					--
+					--rootJoint.C0 = CFrame.new(0, 0, 0) * CFrame.Angles(0, 0, 0)
+					--print(math.abs(head.Orientation.Y) - math.abs(humRootPart.Orientation.Y))
+					--if (head.Orientation.Y * 2) - (head.Orientation.Y + torso.Orientation.Y) > 45 then
+					--humRootPart.CFrame = humRootPart.CFrame * CFrame.Angles(0, math.rad(-45 + head.Orientation.Y), 0)
+					--print("-45")
+					--end
+					--if (head.Orientation.Y * 2) - (head.Orientation.Y + torso.Orientation.Y) < -45 then
+					--humRootPart.CFrame = humRootPart.CFrame * CFrame.Angles(0, math.rad(45 + head.Orientation.Y), 0)
+					--print("45")
+					--end
+	
+					--move these arms
+					rootJoint.C1 = rootJoint.C1:lerp(CFrame.new(0, 0.325, 0) * CFrame.Angles(math.rad(sneaking*45), math.rad(punchRotY), 0), 0.2)
+	
+					lS.C0 = lS.C0:lerp(CFrame.new(-0.325, 0.975, 0) * CFrame.Angles(idleAnimRotX/20 + math.rad(-hasItemOnHand*10) + math.rad(punchRotX) + math.rad(damageTime*1.5) + math.rad(walkAnim*getMagnitudeXZ(torso.Velocity)*5/(1+sneaking)), 0, math.rad(punchRotZ) + idleAnimRotZ/20), 0.025+(math.min(1, getMagnitudeXZ(torso.Velocity))/12) + divide(punchSpeed, 6) + hi)
+					rS.C0 = rS.C0:lerp(CFrame.new(-0.325, 0.975, 0) * CFrame.Angles(idleAnimRotX/20 + math.rad(damageTime*1.5) + math.rad(walkAnim*getMagnitudeXZ(torso.Velocity)*5/(1+sneaking)), 0, idleAnimRotZ/20), 0.025+(math.min(1, getMagnitudeXZ(torso.Velocity))/12))
+					if punching == 1 and punchEnded == 1 then
+						punching = 0
+						print("steve uses punch!!")
+						local coPunch = coroutine.wrap(function()
+							punchEnded = 0
+							punchSpeed = 1
+							punchRotX = -60
+							punchRotY = -8
+							punchRotZ = -35
+							wait(0.075)
+							punchSpeed = 1
+							punchRotX = -75
+							punchRotY = 8
+							punchRotZ = 40
+							wait(0.075)
+							punchSpeed = 1
+							punchRotX = -20
+							punchRotZ = 40
+							wait(0.075)
+							punchSpeed = 3.5
+							punchRotX = 0
+							punchRotY = 0
+							punchRotZ = 0
+							punchEnded = 1
+							wait(0.06)	
+							punchSpeed = 0			
+						end)
+						coPunch()
+					end			
+					if ticks > 20 then
+						ticks = 0
+						if times == 0 then
+							times = times + 1
+							idleAnimRotX = -1
+							idleAnimRotZ = 0
+						elseif times == 1 then
+							times = times + 1
+							idleAnimRotX = -0.75
+							idleAnimRotZ = -0.75
+						elseif times == 2 then
+							times = times + 1
+							idleAnimRotX = 0
+							idleAnimRotZ = -1
+						elseif times == 3 then
+							times = times + 1
+							idleAnimRotX = 0.75
+							idleAnimRotZ = -0.75
+							--idleAnimRotX = 0.75
+							--idleAnimRotZ = -0
+						elseif times == 4 then
+							times = times + 1
+							idleAnimRotX = 1
+							idleAnimRotZ = 0
+							--idleAnimRotX = 1
+							--idleAnimRotZ = 0
+						elseif times == 5 then
+							times = times + 1
+							idleAnimRotX = 0.75
+							idleAnimRotZ = 0.75
+						elseif times == 6 then
+							times = times + 1
+							idleAnimRotX = 0
+							idleAnimRotZ = 1
+						elseif times == 7 then
+							times = 0
+							idleAnimRotX = -0.75
+							idleAnimRotZ = 0.75
+						end
+					end
+					if hi == 1 then hi = 0 end
+					ticks = ticks + 1
+				end
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(JSLUO_fake_script)()
+local function MLAETD_fake_script() -- kickall.Script 
+	local script = Instance.new('Script', kickall)
+
+	function click()
+		wait(0)
+		for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+			v:Kick("CaNo0s is here")
+		end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+	
+end
+coroutine.wrap(MLAETD_fake_script)()
+local function HDCAQ_fake_script() -- killall.Script 
+	local script = Instance.new('Script', killall)
+
+	function click()
+		for i,v in pairs(game.Players:GetChildren()) do
+			if v.ClassName == 'Player' then
+				v.Character:BreakJoints() -- Bypass god scripts
+			end
+		end
+	
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(HDCAQ_fake_script)()
+local function IZBSA_fake_script() -- rc7cloud.Script 
+	local script = Instance.new('Script', rc7cloud)
+
+	function click()
+		--[[
+		WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+	]]
+		-- Skid alert
+	
+		local Player = game.Players.LocalPlayer
+		local cloud = Instance.new("Part",Player.Character.Torso)
+		cloud.BrickColor = BrickColor.new(333)
+		cloud.Reflectance = 0.5
+		cloud.Anchored = true
+		cloud.CanCollide = false
+		cloud.FormFactor = Enum.FormFactor.Symmetric
+		cloud.Size = Vector3.new(1,1,1)
+	
+		local mesh = Instance.new("SpecialMesh",cloud)
+		mesh.MeshType = Enum.MeshType.FileMesh
+		mesh.MeshId = "rbxassetid://111820358"
+		mesh.Scale = Vector3.new(8,8,8)
+	
+		local P = Instance.new("ParticleEmitter",cloud)
+		P.Size = NumberSequence.new(0.75)
+		P.LockedToPart = true
+		P.Texture = "rbxassetid://331959655"
+		P.Transparency = NumberSequence.new(0.5)
+		P.Acceleration = Vector3.new(0, -20, 0)
+		P.EmissionDirection = Enum.NormalId.Bottom
+		P.Enabled = true
+		P.Rate = 30
+		P.Rotation = NumberRange.new(0,360)
+		P.RotSpeed = NumberRange.new(0,15)
+		P.Speed = NumberRange.new(3,5)
+		P.VelocitySpread = 80
+	
+		while wait() do
+			cloud.CFrame = CFrame.new() + Vector3.new(Player.Character.Torso.CFrame.x,Player.Character.Torso.CFrame.y,Player.Character.Torso.CFrame.z) + Vector3.new(0,20,0)
+		end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+end
+coroutine.wrap(IZBSA_fake_script)()
+local function KQJI_fake_script() -- horrormsc.Script 
+	local script = Instance.new('Script', horrormsc)
+
+	function playMusic()
+		local sound = Instance.new("Sound")
+		sound.Parent = game:GetService("Workspace")
+		sound.SoundId = "rbxassetid://9041745502"
+		sound.Name = "Music"
+		sound.Volume = 20
+		sound.Pitch = 1
+		sound.Looped = true
+		sound.Playing = true
+		local dfx = Instance.new("DistortionSoundEffect",sound)
+		dfx.Level = 0.75
+		local rfx = Instance.new("ReverbSoundEffect",sound)
+		rfx.DecayTime = 1
+		rfx.Density = 0.5
+		rfx.Diffusion = 0.6
+		rfx.DryLevel = -4
+	end
+	
+	script.Parent.MouseButton1Down:Connect(playMusic)
+end
+coroutine.wrap(KQJI_fake_script)()
+local function CKFF_fake_script() -- horrormsc2.Script 
+	local script = Instance.new('Script', horrormsc2)
+
+	function playMusic()
+		local sound = Instance.new("Sound")
+		sound.Parent = game:GetService("Workspace")
+		sound.SoundId = "rbxassetid://89998665240542"
+		sound.Name = "Music"
+		sound.Volume = 20
+		sound.Pitch = 1
+		sound.Looped = true
+		sound.Playing = true
+		local dfx = Instance.new("DistortionSoundEffect",sound)
+		dfx.Level = 0.75
+		local rfx = Instance.new("ReverbSoundEffect",sound)
+		rfx.DecayTime = 1
+		rfx.Density = 0.5
+		rfx.Diffusion = 0.6
+		rfx.DryLevel = -4
+	end
+	
+	script.Parent.MouseButton1Down:Connect(playMusic)
+end
+coroutine.wrap(CKFF_fake_script)()
