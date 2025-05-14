@@ -36,6 +36,8 @@ local rc7cloud = Instance.new("TextButton")
 local horrormsc = Instance.new("TextButton")
 local horrormsc2 = Instance.new("TextButton")
 local scripthub = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local open = Instance.new("TextButton")
 
 --Properties:
 
@@ -46,7 +48,7 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 4
-Frame.Position = UDim2.new(0.0603019632, 0, 0.116513662, 0)
+Frame.Position = UDim2.new(0.0518986024, 0, 0.579654694, 0)
 Frame.Size = UDim2.new(0, 852, 0, 601)
 Frame.Active = true
 Frame.Draggable = true
@@ -56,7 +58,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.164302707, 0, 0.00426664669, 0)
+TextLabel.Position = UDim2.new(0.179189995, 0, 0.00321059139, 0)
 TextLabel.Size = UDim2.new(0, 545, 0, 90)
 TextLabel.Font = Enum.Font.FredokaOne
 TextLabel.Text = "~~CaNo0s GUI~~"
@@ -497,6 +499,8 @@ scripthub.MouseButton1Down:Connect(function()
 	local TextLabel_4 = Instance.new("TextLabel")
 	local TextLabel_5 = Instance.new("TextLabel")
 	local TextLabel_6 = Instance.new("TextLabel")
+	local close = Instance.new("TextButton")
+	local openhub = Instance.new("TextButton")
 
 	--Properties:
 
@@ -510,9 +514,6 @@ scripthub.MouseButton1Down:Connect(function()
 	ScrollingFrame.BorderSizePixel = 4
 	ScrollingFrame.Position = UDim2.new(0.168067232, 0, 0.302884609, 0)
 	ScrollingFrame.Size = UDim2.new(0, 501, 0, 258)
-	ScrollingFrame.CanvasPosition = Vector2.new(0, 10)
-	ScrollingFrame.Active = true
-	ScrollingFrame.Draggable = true
 
 	TextLabel.Parent = ScrollingFrame
 	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -747,9 +748,37 @@ scripthub.MouseButton1Down:Connect(function()
 	TextLabel_6.TextSize = 14.000
 	TextLabel_6.TextWrapped = true
 
+	close.Name = "close"
+	close.Parent = ScrollingFrame
+	close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	close.BorderSizePixel = 4
+	close.Position = UDim2.new(0.0139720561, 0, 0.0387052782, 0)
+	close.Size = UDim2.new(0, 83, 0, 50)
+	close.Font = Enum.Font.FredokaOne
+	close.Text = "Close GUI"
+	close.TextColor3 = Color3.fromRGB(0, 0, 0)
+	close.TextScaled = true
+	close.TextSize = 14.000
+	close.TextWrapped = true
+
+	openhub.Name = "openhub"
+	openhub.Parent = ScreenGui
+	openhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	openhub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	openhub.BorderSizePixel = 4
+	openhub.Position = UDim2.new(0.789915979, 0, 0.0384615399, 0)
+	openhub.Size = UDim2.new(0, 200, 0, 50)
+	openhub.Font = Enum.Font.FredokaOne
+	openhub.Text = "Open hub "
+	openhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	openhub.TextScaled = true
+	openhub.TextSize = 14.000
+	openhub.TextWrapped = true
+
 	-- Scripts:
 
-	local function RMCN_fake_script() -- btools.Script 
+	local function VVYVHWR_fake_script() -- btools.Script 
 		local script = Instance.new('Script', btools)
 
 		function click()
@@ -782,8 +811,8 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(RMCN_fake_script)()
-	local function KRMUGJ_fake_script() -- sword.Script 
+	coroutine.wrap(VVYVHWR_fake_script)()
+	local function PWAQX_fake_script() -- sword.Script 
 		local script = Instance.new('Script', sword)
 
 		function click()
@@ -862,8 +891,8 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(KRMUGJ_fake_script)()
-	local function MFTOH_fake_script() -- rc7cloud.Script 
+	coroutine.wrap(PWAQX_fake_script)()
+	local function JRRKOJ_fake_script() -- rc7cloud.Script 
 		local script = Instance.new('Script', rc7cloud)
 
 		function click()
@@ -904,8 +933,8 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(MFTOH_fake_script)()
-	local function YRSTTH_fake_script() -- suzz.Script 
+	coroutine.wrap(JRRKOJ_fake_script)()
+	local function IUBUWS_fake_script() -- suzz.Script 
 		local script = Instance.new('Script', suzz)
 
 		function click()
@@ -1709,8 +1738,8 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(YRSTTH_fake_script)()
-	local function UWDT_fake_script() -- tuboosgui3.Script 
+	coroutine.wrap(IUBUWS_fake_script)()
+	local function VYDGZ_fake_script() -- tuboosgui3.Script 
 		local script = Instance.new('Script', tuboosgui3)
 
 		function click()
@@ -3641,8 +3670,8 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(UWDT_fake_script)()
-	local function DFTJXCF_fake_script() -- tuboosgui1.Script 
+	coroutine.wrap(VYDGZ_fake_script)()
+	local function RQKAECE_fake_script() -- tuboosgui1.Script 
 		local script = Instance.new('Script', tuboosgui1)
 
 		function click()
@@ -4551,8 +4580,8 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(DFTJXCF_fake_script)()
-	local function KEPWN_fake_script() -- _4x2x9x4x0gui.Script 
+	coroutine.wrap(RQKAECE_fake_script)()
+	local function ZGMAW_fake_script() -- _4x2x9x4x0gui.Script 
 		local script = Instance.new('Script', _4x2x9x4x0gui)
 
 		function click()
@@ -4846,8 +4875,8 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(KEPWN_fake_script)()
-	local function TXEPGKE_fake_script() -- potatogui.Script 
+	coroutine.wrap(ZGMAW_fake_script)()
+	local function LFAWZD_fake_script() -- potatogui.Script 
 		local script = Instance.new('Script', potatogui)
 
 		function click()
@@ -5748,8 +5777,8 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(TXEPGKE_fake_script)()
-	local function QAYCN_fake_script() -- GavindRgui.Script 
+	coroutine.wrap(LFAWZD_fake_script)()
+	local function WZLW_fake_script() -- GavindRgui.Script 
 		local script = Instance.new('Script', GavindRgui)
 
 		function click()
@@ -5925,8 +5954,8 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(QAYCN_fake_script)()
-	local function SVPU_fake_script() -- bac0ngui.Script 
+	coroutine.wrap(WZLW_fake_script)()
+	local function BZLVJ_fake_script() -- bac0ngui.Script 
 		local script = Instance.new('Script', bac0ngui)
 
 		function click()
@@ -6005,8 +6034,8 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(SVPU_fake_script)()
-	local function NFNDGV_fake_script() -- dolanduckgui.Script 
+	coroutine.wrap(BZLVJ_fake_script)()
+	local function TWHKSPG_fake_script() -- dolanduckgui.Script 
 		local script = Instance.new('Script', dolanduckgui)
 
 		function click()
@@ -6446,13 +6475,61 @@ scripthub.MouseButton1Down:Connect(function()
 
 		script.Parent.MouseButton1Down:Connect(click)
 	end
-	coroutine.wrap(NFNDGV_fake_script)()
+	coroutine.wrap(TWHKSPG_fake_script)()
+	local function MOBNCK_fake_script() -- close.LocalScript 
+		local script = Instance.new('LocalScript', close)
+
+		local frame = script.Parent.Parent
+
+		script.Parent.MouseButton1Click:Connect(function()
+			frame.Visible = false
+		end)
+	end
+	coroutine.wrap(MOBNCK_fake_script)()
+	local function JYPGK_fake_script() -- openhub.LocalScript 
+		local script = Instance.new('LocalScript', openhub)
+
+		local frame = script.Parent.Parent.ScrollingFrame
+
+		script.Parent.MouseButton1Click:Connect(function()
+			frame.Visible = true
+		end)
+	end
+	coroutine.wrap(JYPGK_fake_script)()
 
 end)
 
+close.Name = "close"
+close.Parent = Frame
+close.BackgroundColor3 = Color3.fromRGB(71, 67, 72)
+close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderSizePixel = 4
+close.Position = UDim2.new(0.957063794, 0, -0.0333054923, 0)
+close.Size = UDim2.new(0, 53, 0, 37)
+close.Font = Enum.Font.FredokaOne
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 255, 255)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+
+open.Name = "open"
+open.Parent = ScreenGui
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.BorderColor3 = Color3.fromRGB(0, 0, 0)
+open.BorderSizePixel = 4
+open.Position = UDim2.new(0.00840336177, 0, 0.0929487199, 0)
+open.Size = UDim2.new(0, 116, 0, 50)
+open.Font = Enum.Font.FredokaOne
+open.Text = "Open GUI"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
+
 -- Scripts:
 
-local function WENUGF_fake_script() -- skybox.Script 
+local function VOTCH_fake_script() -- skybox.Script 
 	local script = Instance.new('Script', skybox)
 
 	function click()
@@ -6470,8 +6547,8 @@ local function WENUGF_fake_script() -- skybox.Script
 	
 	script.Parent.MouseButton1Down:connect(click)
 end
-coroutine.wrap(WENUGF_fake_script)()
-local function KORNKF_fake_script() -- decal.Script 
+coroutine.wrap(VOTCH_fake_script)()
+local function VBST_fake_script() -- decal.Script 
 	local script = Instance.new('Script', decal)
 
 	function click()
@@ -6515,8 +6592,8 @@ local function KORNKF_fake_script() -- decal.Script
 	
 	script.Parent.MouseButton1Down:connect(click)
 end
-coroutine.wrap(KORNKF_fake_script)()
-local function ORLQ_fake_script() -- particles.Script 
+coroutine.wrap(VBST_fake_script)()
+local function AUPCXW_fake_script() -- particles.Script 
 	local script = Instance.new('Script', particles)
 
 	function click()
@@ -6566,8 +6643,8 @@ local function ORLQ_fake_script() -- particles.Script
 	
 	script.Parent.MouseButton1Down:connect(click)
 end
-coroutine.wrap(ORLQ_fake_script)()
-local function EPTYDI_fake_script() -- CaNo0sface.Script 
+coroutine.wrap(AUPCXW_fake_script)()
+local function SAOB_fake_script() -- CaNo0sface.Script 
 	local script = Instance.new('Script', CaNo0sface)
 
 	function click()
@@ -6592,8 +6669,8 @@ local function EPTYDI_fake_script() -- CaNo0sface.Script
 	
 		script.Parent.MouseButton1Down:connect(click)
 end
-coroutine.wrap(EPTYDI_fake_script)()
-local function GROR_fake_script() -- Music.Script 
+coroutine.wrap(SAOB_fake_script)()
+local function WQISZSY_fake_script() -- Music.Script 
 	local script = Instance.new('Script', Music)
 
 	function playMusic()
@@ -6616,8 +6693,8 @@ local function GROR_fake_script() -- Music.Script
 	
 	script.Parent.MouseButton1Down:Connect(playMusic)
 end
-coroutine.wrap(GROR_fake_script)()
-local function NCXKFBG_fake_script() -- disco.Script 
+coroutine.wrap(WQISZSY_fake_script)()
+local function VXSN_fake_script() -- disco.Script 
 	local script = Instance.new('Script', disco)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -6639,8 +6716,8 @@ local function NCXKFBG_fake_script() -- disco.Script
 		end
 	end)
 end
-coroutine.wrap(NCXKFBG_fake_script)()
-local function ADBNR_fake_script() -- jumpscare.Script 
+coroutine.wrap(VXSN_fake_script)()
+local function LBAYKIW_fake_script() -- jumpscare.Script 
 	local script = Instance.new('Script', jumpscare)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -6668,8 +6745,8 @@ local function ADBNR_fake_script() -- jumpscare.Script
 		end
 	end)
 end
-coroutine.wrap(ADBNR_fake_script)()
-local function LPUDRF_fake_script() -- music2.Script 
+coroutine.wrap(LBAYKIW_fake_script)()
+local function RFTZGA_fake_script() -- music2.Script 
 	local script = Instance.new('Script', music2)
 
 	function playMusic()
@@ -6692,8 +6769,8 @@ local function LPUDRF_fake_script() -- music2.Script
 	
 	script.Parent.MouseButton1Down:Connect(playMusic)
 end
-coroutine.wrap(LPUDRF_fake_script)()
-local function YLEBBEI_fake_script() -- toadroast.Script 
+coroutine.wrap(RFTZGA_fake_script)()
+local function NSYD_fake_script() -- toadroast.Script 
 	local script = Instance.new('Script', toadroast)
 
 	function click()
@@ -6789,8 +6866,8 @@ local function YLEBBEI_fake_script() -- toadroast.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(YLEBBEI_fake_script)()
-local function KDCAPG_fake_script() -- hint.Script 
+coroutine.wrap(NSYD_fake_script)()
+local function WLYDH_fake_script() -- hint.Script 
 	local script = Instance.new('Script', hint)
 
 	function click()
@@ -6801,8 +6878,8 @@ local function KDCAPG_fake_script() -- hint.Script
 	
 	script.Parent.MouseButton1Down:connect(click)
 end
-coroutine.wrap(KDCAPG_fake_script)()
-local function MLMY_fake_script() -- hint2.Script 
+coroutine.wrap(WLYDH_fake_script)()
+local function UBZWLM_fake_script() -- hint2.Script 
 	local script = Instance.new('Script', hint2)
 
 	function click()
@@ -6813,8 +6890,8 @@ local function MLMY_fake_script() -- hint2.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(MLMY_fake_script)()
-local function TFRIF_fake_script() -- msg.Script 
+coroutine.wrap(UBZWLM_fake_script)()
+local function GAKM_fake_script() -- msg.Script 
 	local script = Instance.new('Script', msg)
 
 	function click()
@@ -6828,8 +6905,8 @@ local function TFRIF_fake_script() -- msg.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(TFRIF_fake_script)()
-local function LZXG_fake_script() -- msg2.Script 
+coroutine.wrap(GAKM_fake_script)()
+local function DZZXN_fake_script() -- msg2.Script 
 	local script = Instance.new('Script', msg2)
 
 	function click()
@@ -6843,8 +6920,8 @@ local function LZXG_fake_script() -- msg2.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(LZXG_fake_script)()
-local function WFGWH_fake_script() -- stopmusic.Script 
+coroutine.wrap(DZZXN_fake_script)()
+local function WQTSW_fake_script() -- stopmusic.Script 
 	local script = Instance.new('Script', stopmusic)
 
 	function stopAllSounds()
@@ -6858,8 +6935,8 @@ local function WFGWH_fake_script() -- stopmusic.Script
 	
 	script.Parent.MouseButton1Down:Connect(stopAllSounds)
 end
-coroutine.wrap(WFGWH_fake_script)()
-local function OLMUI_fake_script() -- _666.Script 
+coroutine.wrap(WQTSW_fake_script)()
+local function LAKIO_fake_script() -- _666.Script 
 	local script = Instance.new('Script', _666)
 
 	function click()
@@ -6920,8 +6997,8 @@ local function OLMUI_fake_script() -- _666.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(OLMUI_fake_script)()
-local function ORRNHRI_fake_script() -- msg3.Script 
+coroutine.wrap(LAKIO_fake_script)()
+local function DCCHLY_fake_script() -- msg3.Script 
 	local script = Instance.new('Script', msg3)
 
 	function click()
@@ -6935,8 +7012,8 @@ local function ORRNHRI_fake_script() -- msg3.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(ORRNHRI_fake_script)()
-local function TZKAHA_fake_script() -- msg4.Script 
+coroutine.wrap(DCCHLY_fake_script)()
+local function GUDKY_fake_script() -- msg4.Script 
 	local script = Instance.new('Script', msg4)
 
 	function click()
@@ -6950,8 +7027,8 @@ local function TZKAHA_fake_script() -- msg4.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(TZKAHA_fake_script)()
-local function DXHJQD_fake_script() -- unanchor.Script 
+coroutine.wrap(GUDKY_fake_script)()
+local function MYBQWGW_fake_script() -- unanchor.Script 
 	local script = Instance.new('Script', unanchor)
 
 	function click()
@@ -6970,8 +7047,8 @@ local function DXHJQD_fake_script() -- unanchor.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(DXHJQD_fake_script)()
-local function JMKRLKP_fake_script() -- flash.Script 
+coroutine.wrap(MYBQWGW_fake_script)()
+local function IYZZDVE_fake_script() -- flash.Script 
 	local script = Instance.new('Script', flash)
 
 	function click()
@@ -7012,8 +7089,8 @@ local function JMKRLKP_fake_script() -- flash.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(JMKRLKP_fake_script)()
-local function ZGEE_fake_script() -- tomrain.Script 
+coroutine.wrap(IYZZDVE_fake_script)()
+local function BJJVSB_fake_script() -- tomrain.Script 
 	local script = Instance.new('Script', tomrain)
 
 	function click()
@@ -7063,8 +7140,8 @@ local function ZGEE_fake_script() -- tomrain.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(ZGEE_fake_script)()
-local function EBXO_fake_script() -- becomesteve.Script 
+coroutine.wrap(BJJVSB_fake_script)()
+local function QHIPH_fake_script() -- becomesteve.Script 
 	local script = Instance.new('Script', becomesteve)
 
 	function click()
@@ -7807,8 +7884,8 @@ local function EBXO_fake_script() -- becomesteve.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(EBXO_fake_script)()
-local function DWQDQGY_fake_script() -- kickall.Script 
+coroutine.wrap(QHIPH_fake_script)()
+local function RIFYXSB_fake_script() -- kickall.Script 
 	local script = Instance.new('Script', kickall)
 
 	function click()
@@ -7821,8 +7898,8 @@ local function DWQDQGY_fake_script() -- kickall.Script
 	script.Parent.MouseButton1Down:Connect(click)
 	
 end
-coroutine.wrap(DWQDQGY_fake_script)()
-local function NNRTTWZ_fake_script() -- killall.Script 
+coroutine.wrap(RIFYXSB_fake_script)()
+local function LIIH_fake_script() -- killall.Script 
 	local script = Instance.new('Script', killall)
 
 	function click()
@@ -7836,15 +7913,15 @@ local function NNRTTWZ_fake_script() -- killall.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(NNRTTWZ_fake_script)()
-local function WZRIGF_fake_script() -- rc7cloud.Script 
+coroutine.wrap(LIIH_fake_script)()
+local function SLIFMW_fake_script() -- rc7cloud.Script 
 	local script = Instance.new('Script', rc7cloud)
 
 	function click()
 		--[[
 		WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 	]]
-		-- Skiddo alert
+		-- Skid alert
 	
 		local Player = game.Players.LocalPlayer
 		local cloud = Instance.new("Part",Player.Character.Torso)
@@ -7881,8 +7958,8 @@ local function WZRIGF_fake_script() -- rc7cloud.Script
 	
 	script.Parent.MouseButton1Down:Connect(click)
 end
-coroutine.wrap(WZRIGF_fake_script)()
-local function VBZHHBM_fake_script() -- horrormsc.Script 
+coroutine.wrap(SLIFMW_fake_script)()
+local function YABZV_fake_script() -- horrormsc.Script 
 	local script = Instance.new('Script', horrormsc)
 
 	function playMusic()
@@ -7890,7 +7967,7 @@ local function VBZHHBM_fake_script() -- horrormsc.Script
 		sound.Parent = game:GetService("Workspace")
 		sound.SoundId = "rbxassetid://9041745502"
 		sound.Name = "Music"
-		sound.Volume = 100
+		sound.Volume = 20
 		sound.Pitch = 1
 		sound.Looped = true
 		sound.Playing = true
@@ -7905,8 +7982,8 @@ local function VBZHHBM_fake_script() -- horrormsc.Script
 	
 	script.Parent.MouseButton1Down:Connect(playMusic)
 end
-coroutine.wrap(VBZHHBM_fake_script)()
-local function JKHMN_fake_script() -- horrormsc2.Script 
+coroutine.wrap(YABZV_fake_script)()
+local function UBQXNK_fake_script() -- horrormsc2.Script 
 	local script = Instance.new('Script', horrormsc2)
 
 	function playMusic()
@@ -7929,4 +8006,24 @@ local function JKHMN_fake_script() -- horrormsc2.Script
 	
 	script.Parent.MouseButton1Down:Connect(playMusic)
 end
-coroutine.wrap(JKHMN_fake_script)()
+coroutine.wrap(UBQXNK_fake_script)()
+local function JXMBQLH_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	local frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+end
+coroutine.wrap(JXMBQLH_fake_script)()
+local function YMLZ_fake_script() -- open.LocalScript 
+	local script = Instance.new('LocalScript', open)
+
+	local frame = script.Parent.Parent.Frame
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = true
+	end)
+end
+coroutine.wrap(YMLZ_fake_script)()
