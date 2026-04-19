@@ -6557,7 +6557,7 @@ local function VBST_fake_script() -- decal.Script
 				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=77888956" then
 					v.Parent = nil
 				elseif v:IsA("BasePart") then
-					v.Material = "Plastic"
+					v.Material = Enum.Material.Plastic
 					v.Transparency = 0
 					local One = Instance.new("Decal", v)
 					local Two = Instance.new("Decal", v)
