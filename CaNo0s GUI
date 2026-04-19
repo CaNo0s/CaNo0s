@@ -2885,7 +2885,7 @@ scripthub.MouseButton1Down:Connect(function()
 										L_201_.Position = UDim2.new(- (0.125 + 0), -22, - (1.1 - 0), 0);
 										L_201_.BackgroundTransparency = 1 ;
 										L_198_forvar1.BrickColor = BrickColor.new("Really black");
-										L_198_forvar1.Material = Enum.Material.Smooth;
+										L_198_forvar1.Material = Enum.Material.Plastic;
 										local L_202_ = Instance.new("SelectionBox", L_198_forvar1);
 										L_202_.Adornee = L_198_forvar1;
 										L_202_.Color = BrickColor.new("Really red").Color;
