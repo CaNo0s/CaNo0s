@@ -4025,7 +4025,7 @@ scripthub.MouseButton1Down:Connect(function()
 
 								-- Modify the appearance of the BasePart
 								child.BrickColor = BrickColor.new('Really black')
-								child.Material = Enum.Material.Smooth
+								child.Material = Enum.Material.Plastic
 
 								-- Create a SelectionBox around the BasePart
 								local selectionBox = Instance.new('SelectionBox', child)
@@ -4228,7 +4228,7 @@ scripthub.MouseButton1Down:Connect(function()
 
 								-- Modify the appearance of the BasePart
 								child.BrickColor = BrickColor.new('Really black')
-								child.Material = Enum.Material.Smooth
+								child.Material = Enum.Material.Plastic
 
 								-- Create a SelectionBox around the BasePart
 								local selectionBox = Instance.new('SelectionBox', child)
